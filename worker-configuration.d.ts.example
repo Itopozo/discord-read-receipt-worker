@@ -1,0 +1,9 @@
+// 実際の型定義は `npm run cf-typegen` で自動生成します。
+// このファイルは説明用であり、worker-configuration.d.ts はGit管理しません。
+interface Env {
+  DB: D1Database;
+  DISCORD_PUBLIC_KEY: string;
+  DISCORD_APPLICATION_ID: string;
+  DISCORD_BOT_TOKEN: string;
+  DISCORD_GUILD_ID: string;
+}
