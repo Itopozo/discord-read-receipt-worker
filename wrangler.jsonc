@@ -12,8 +12,9 @@
     {
       "binding": "DB",
       "database_name": "discord-read-receipt-db",
-      "database_id": "REPLACE_WITH_D1_DATABASE_ID",
-      "migrations_dir": "migrations"
+      "database_id": "409a6ef2-5832-48eb-9771-7ce8a750febe",
+      "migrations_dir": "migrations",
+      "remote": true
     }
   ]
 }
