@@ -2,6 +2,8 @@
 
 Cloudflare Workers、D1、Discord Interactionを利用した既読確認Botです。
 
+作業履歴と現在地は [`docs/WORKLOG.md`](docs/WORKLOG.md) にまとめています。
+
 ## 現在のテスト機能
 
 - `/notice-test` で確認ボタン付きメッセージを投稿
