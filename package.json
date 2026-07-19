@@ -1,0 +1,24 @@
+{
+  "name": "discord-read-receipt-worker",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "cf-typegen": "wrangler types",
+    "db:migrate:local": "wrangler d1 migrations apply DB --local",
+    "db:migrate:remote": "wrangler d1 migrations apply DB --remote",
+    "register": "tsx scripts/register-commands.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "discord-interactions": "^4.4.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20260718.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3",
+    "wrangler": "^4.112.0"
+  }
+}
